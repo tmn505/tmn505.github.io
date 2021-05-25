@@ -1,0 +1,5 @@
+theme: jekyll-theme-slate
+
+show_downloads: false
+
+description: "Placeholder for binaries published in gh-pages of respective repositories"
