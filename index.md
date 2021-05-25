@@ -5,7 +5,7 @@ not present in official Arch Linux repositories. All are built with
 GitHub Actions. The history is not preserved. To use the repository,
 add this to pacman.conf:
 
-```shell
+```
 [AUR]
 SigLevel = Never TrustAll
 Server = https://tmn505.github.io/$repo/$arch
@@ -23,7 +23,7 @@ These are the packages built from my fork of [VDR4Arch](https://github.com/VDR4A
 All are built with GitHub Actions. The history is not preserved.
 To use the repository, add this to pacman.conf:
 
-```shell
+```
 [vdr4arch]
 SigLevel = Never TrustAll
 Server = https://tmn505.github.io/$repo/$arch
