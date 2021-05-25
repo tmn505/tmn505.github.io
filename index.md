@@ -1,6 +1,6 @@
 ### AUR packages repository
 
-These are the packages that I maintain on AUR plus their dpendencies
+These are the packages that I maintain on AUR plus their dependencies
 not present in official Arch Linux repositories. All are built with
 GitHub Actions. The history is not preserved. To use the repository,
 add this to pacman.conf:
@@ -40,6 +40,6 @@ Server = https://tmn505.github.io/$repo/$arch
 Binaries ready for writing to ZoomGo ZX10.
 These are built with GitHub Actions. The history is preserved.
 
-[Browse files](./u-boot])
+[Browse files](./u-boot)
 
 [Browse source](https://github.com/tmn505/u-boot/tree/zx10)
