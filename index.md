@@ -10,6 +10,6 @@ SigLevel = Never TrustAll
 Server = https://tmn505.github.io/$repo/$arch
 ```
 
-[Browse repository](./AUR/index.html)
+[Browse repository](./AUR)
 
 [Browse source](https://www.github.com/tmn505/AUR)
