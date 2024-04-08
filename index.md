@@ -42,6 +42,17 @@ Server = https://tmn505.github.io/$repo/$arch
 Binaries ready for writing to ZoomGo ZX10.
 These are built with GitHub Actions. The history is preserved.
 
-[Browse files](./u-boot)
+[Browse files](./u-boot/zoomgo_zx10)
 
 [Browse source](https://github.com/tmn505/u-boot/tree/zx10)
+
+* * *
+
+### Modified U-boot for Wyse Tx0 (T10 or 3010)
+
+Binaries ready for writing to Wyse Tx0.
+These are built with GitHub Actions. The history is preserved.
+
+[Browse files](./u-boot/wyse_tx0)
+
+[Browse source](https://github.com/tmn505/u-boot/tree/tx0)
