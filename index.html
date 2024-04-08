@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>List of published repositories | tmn505.github.io</title>
+    <meta name="description" content="Placeholder for links to binaries published in gh-pages branch of respective repositories" />
+    <link rel="canonical" href="https://tmn505.github.io/" />
+    <style type="text/css">
+      body {
+        color: #333;
+        line-height: 1.4;
+        margin: 2em auto;
+        max-width: 38em;
+        padding: 0 1em;
+      }
+      pre {
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+        border-radius: 2px;
+        color: #333;
+        font-family: monospace;
+        line-height: 1.2;
+        margin: 0 0 10px;
+        overflow-x: auto;
+        padding: 8px;
+        white-space: pre;
+        word-wrap: normal;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <h2>Placeholder for links to binaries published in gh-pages branch of respective repositories</h2>
+    <p>List of published repositories:</p>
+    <hr />
+
+    <h3>AUR packages repository</h3>
+    <p>These are the packages that I maintain on AUR plus their dependencies
+       not present in official Arch Linux repositories. All are built with
+       GitHub Actions. The history is not preserved. To use the repository,
+       add this to pacman.conf:
+    </p>
+    <pre>[AUR]
+SigLevel = Never TrustAll
+Server = https://tmn505.github.io/$repo/$arch</pre>
+    <p><a href="./AUR">Browse repository</a></p>
+    <p><a href="https://github.com/tmn505/AUR">Browse source</a></p>
+    <hr />
+
+    <h3>VDR4Arch packages repository</h3>
+    <p>These are the packages built from my fork of
+       <a href="https://github.com/VDR4Arch">VDR4Arch</a> project.
+       All are built with GitHub Actions. The history is not preserved. To use
+       the repository, add this to pacman.conf:
+    </p>
+    <pre>[vdr4arch]
+SigLevel = Never TrustAll
+Server = https://tmn505.github.io/$repo/$arch</pre>
+    <p><a href="./vdr4arch">Browse repository</a></p>
+    <p><a href="https://github.com/tmn505/vdr4arch">Browse source</a></p>
+    <hr />
+
+    <h3>Modified U-Boot for ZoomGo Media Stick (ZX10)</h3>
+    <p>Binaries ready for writing to ZoomGo ZX10.
+       These are built with GitHub Actions. The history is preserved.
+    </p>
+    <p><a href="./u-boot/zoomgo_zx10">Browse files</a></p>
+    <p><a href="https://github.com/tmn505/u-boot/tree/zx10">Browse source</a></p>
+    <hr />
+
+    <h3>U-Boot for Wyse Tx0 (T10 or 3010)</h3>
+    <p>Binaries ready for writing to Wyse Tx0.
+       These are built with GitHub Actions. The history is preserved.
+    </p>
+    <p><a href="./u-boot/wyse_tx0">Browse files</a></p>
+    <p><a href="https://github.com/tmn505/u-boot/tree/tx0">Browse source</a></p>
+
+  </body>
+
+</html>
